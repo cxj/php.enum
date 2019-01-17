@@ -1,0 +1,20 @@
+{
+    "name": "cxj/enumphp",
+    "description": "Enumerated type functionality for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Johnson",
+            "email": "cxjohnson@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cxj\\": "src/"
+        }
+    }
+}
